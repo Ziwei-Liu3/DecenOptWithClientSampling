@@ -44,3 +44,5 @@ The novelty is in that we introduced client sampling into the analysis; The nove
 
 
 8. Do you have experiments on dense topologies? Appendix G mentions a fully-connected graph, but I didn't find the results.
+
+* I'm not sure what this commented meant. Appendix G showed the experimental results of centralized topology, and from what I know fully-connected is synonymous to centralized. 
