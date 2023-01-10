@@ -16,7 +16,7 @@
 1. The convergence rate for strongly convex objectives seems a bit loose. I would expect the rate to be linear with a factor depends on s.
 
 -> This does not sound like a quick and easy things to do; maybe we can look deeper into if this is possible in our further work. 
-- [ ] Check if the convergence rate for strongly convex objective can be improved. 
+- [ ] Discuss if the convergence rate for strongly convex objective can be improved. 
 
 2. The numerical experiments are a bit too simple. The authors should run a non-convex experiment.==/The experiments on both convex and non-convex settings are expected.
 3. The experiments are relatively weak since they only consider artificial examples.
@@ -30,7 +30,7 @@ The novelty is in that we introduced client sampling into the analysis; The nove
 
 5. I think Section 4 can be improved: all relevant parameters and assumptions should be included in the main body. More importantly, the Equations in Theorem 2 are overloaded: it's hard to grasp the meaning of these terms, and the experiments address this issue only superficially. It might be better to hide non-important parameters
 
-- [ ] Would it be a good idea to include a table of all assumptions, put in a concise form? I'm trying to do that. 
+- [x] Would it be a good idea to include a table of all assumptions, put in a concise form? I'm trying to do that. 
 
 6. Due to the above issue, it's unclear how the result compares with the rate from [8]. I thought that the analysis from [8] should be straightforward to modify to your settings. Do you have a discussion about why the analysis from [8] can't be adapted?
 
@@ -40,8 +40,6 @@ The novelty is in that we introduced client sampling into the analysis; The nove
 
 - [ ] Include comparsion with some other work. 
 - [ ] Need to figure out what other work to compare with. 
-
-
 
 8. Do you have experiments on dense topologies? Appendix G mentions a fully-connected graph, but I didn't find the results.
 
